@@ -1,0 +1,282 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+footer {
+    background-color: #303030;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #666666;
+  line-height: 1;
+  text-align: left;
+  padding-top: 0%;
+  padding-right: 35%;
+  padding-bottom: 0%;
+}
+
+h2, h3, h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #737373;
+  border-width: 5px;
+  width: 5%;
+  margin: 2.5% 47% 2.5% 47%;
+}
+
+/* Headings */
+.dark-heading {
+  color: #303030;
+  margin-top: 0.5rem;
+}
+
+.dark-heading-medium {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption {
+color: #EDE4E0;
+text-shadow: 1px 1px #B0ABAB;
+}
+
+.light-heading {
+  color: #FEFEFE;
+  margin-bottom: 4rem;
+}
+
+.main-text {
+  font-size: 2rem;
+  color: #737373;
+}
+
+.medium-text {
+  font-size: 1.5rem;
+  color: #303030;
+}
+
+.small-text {
+  font-size: 1rem;
+  color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 2 0rem;
+    background-color: #FEFEFE;
+}
+
+.avatar-image {
+  width: 60px;
+  radius: 100%;
+  text-align: left;
+}
+
+.nav-item {
+  padding: 10px 18px;
+}
+
+.nav-link {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #303030;
+  padding: 10px 18px;
+}
+
+/* Title Section */
+
+.top_part {
+  background-image: linear-gradient(to bottom left, #EDE4E0, #EDE4E0, #B0ABAB);
+  padding: 4% 0% 0% 0%;
+}
+
+#section-one {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+#intro {
+text-align: left;
+padding: 10% 0% 5% 10%;
+}
+
+/* Carousel */
+
+.container-fluid {
+  padding: 7% 7%;
+}
+
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+/* Middle Section */
+
+.lorem {
+margin: 2% 20% 3% 20%;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
+  background-color: #1e212d;
+  opacity: 10%;
+  position: absolute;
+}
+
+#logo-python {
+    right: 2%;
+    top: 86%;
+    background-color: #a97944;
+    border-radius: 50%;
+}
+
+#logo-css {
+  width: 160px;
+  height: 160px;
+  right: 7%;
+  top: 110%;
+  transform: rotate(10deg);
+}
+
+#logo-js {
+  right: 5%;
+  top: 130%;
+  background-color: #FEFEFE;
+  transform: rotate(-25deg);
+}
+
+#logo-html {
+  right: 3%;
+  top: 160%;
+  border-radius: 50%;
+}
+
+#python-ikonka {
+  font-size: 5rem;
+  padding: 40px 30px;
+  transform: rotate(10deg);
+}
+
+#js-ikonka {
+  font-size: 10rem;
+  padding: 60px 60px;
+}
+
+#html-ikonka {
+  font-size: 5rem;
+  padding: 50px 40px;
+}
+
+#css-ikonka {
+  font-size: 4rem;
+  padding: 50px 40px;
+}
+
+/* Project Cards - Features */
+
+.box {
+  position: relative;
+  padding: 2.5%;
+  width: auto;
+  background-color: #fff;
+  text-shadow: 1px 1px 0px #fff;
+  max-width: 32em;
+}
+
+.features-box {
+  padding: 1.5%;
+}
+
+#photo {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.25em;
+  left: 20px;
+  top: 30px;
+  margin: -30px 0 60px -20px;
+  position: relative;
+}
+
+#features {
+  position: relative;
+  padding: 3% 15% 7%;
+}
+
+/* Contact Me */
+
+.contact-me-form {
+   padding: 10rem;
+   background-color: #303030;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  margin-top: 10rem;
+}
+
+/* MEDIA */
+
+@media (max-width: 768px) {
+
+  #navigation_bar {
+    text-align: center;
+    }
+
+  #intro {
+    padding: 10% 0% 10% 10%;
+    }
+
+  h1 {
+    padding-right: 5%;
+  }
+
+  #logo-one {
+    right: 3%;
+    top: 106%;
+  }
+
+  #logo-two {
+    right: 10%;
+    top: 150%;
+  }
+
+  #logo-three {
+    right: 3%;
+    top: 180%;
+  }
+
+  #logo-four {
+    right: 7%;
+    top: 130%;
+  }
+
+/*
+.icon {
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+*/
