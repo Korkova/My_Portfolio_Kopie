@@ -1,3 +1,8 @@
+html {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
 body {
   font-family: 'Montserrat';
   text-align: center;
@@ -128,6 +133,10 @@ padding: 10% 0% 5% 10%;
   width: 100%;
 }
 
+.row {
+--bs-gutter-x: 0rem;
+}
+
 /* Middle Section */
 
 .lorem {
@@ -234,6 +243,7 @@ margin: 2% 20% 3% 20%;
   margin-top: 10rem;
 }
 
+
 /* MEDIA */
 
 @media (max-width: 768px) {
@@ -269,6 +279,10 @@ margin: 2% 20% 3% 20%;
     right: 7%;
     top: 130%;
   }
+
+  .contact-me-form {
+   padding: 3rem;
+}
 
 /*
 .icon {
