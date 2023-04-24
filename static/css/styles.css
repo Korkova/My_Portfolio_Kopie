@@ -11,7 +11,7 @@ h1 {
   font-family: 'Playfair Display SC', serif;
   font-weight: 400;
   font-size: 3rem;
-  color: #666666;
+  color: #303030;
   line-height: 1;
   text-align: left;
   padding-top: 0%;
@@ -51,8 +51,10 @@ hr {
 }
 
 .carousel-caption {
-color: #EDE4E0;
-text-shadow: 1px 1px #B0ABAB;
+/*color: #EDE4E0;
+text-shadow: 1px 1px #B0ABAB;*/
+  color: #FEFEFE;
+  text-shadow: 1px 1px #EDE4E0;
 }
 
 .light-heading {
@@ -248,7 +250,7 @@ margin: 2% 20% 3% 20%;
     }
 
   #intro {
-    padding: 10% 0% 10% 10%;
+    padding: 15% 0% 10% 2%;
     }
 
   h1 {
@@ -288,12 +290,8 @@ margin: 2% 20% 3% 20%;
     padding-right: 5%;
   }
 
-  h2 {
-    font-size: 2rem;
-  }
-
   .medium-text {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   #section-one {
