@@ -1,17 +1,9 @@
 from flask import Flask, render_template, request
-from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, validators
-from wtforms.validators import DataRequired, Email
-# from flask_bootsrap import Bootstrap
+import os
 import smtplib
 
-# class LoginForm(FlaskForm):
-#     email = StringField(label="Email", validators=[DataRequired(), Email()])
-#     password = PasswordField(label="Password", validators=[DataRequired(), Length(min=8)])
-#     submit = SubmitField(label="Log In")
-
-OWN_EMAIL = "laraparako@gmail.com"
-OWN_PASSWORD = "123456"
+OWN_EMAIL = os.environ.get("EMAIL")
+OWN_PASSWORD = os.environ.get("PASSWORD")
 
 
 app = Flask(__name__)
