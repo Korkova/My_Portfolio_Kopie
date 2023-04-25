@@ -299,6 +299,10 @@ margin: 2% 20% 3% 20%;
     font-size: 0.7rem;
   }
 
+  .mediumlarge-text {
+    font-size: 0.8rem;
+    }
+
   #section-one {
     margin-top: 25%;
   }
