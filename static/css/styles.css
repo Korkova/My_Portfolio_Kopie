@@ -22,7 +22,6 @@ h1 {
 h2, h3, h4 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  font-size: 3rem;
 }
 
 h5, h6 {
@@ -43,6 +42,7 @@ hr {
 .dark-heading {
   color: #303030;
   margin-top: 0.5rem;
+  font-size: 3rem;
 }
 
 .dark-heading-medium {
@@ -59,6 +59,7 @@ text-shadow: 1px 1px #B0ABAB;*/
 
 .light-heading {
   color: #FEFEFE;
+  font-size: 3rem;
   margin-bottom: 4rem;
 }
 
@@ -68,12 +69,12 @@ text-shadow: 1px 1px #B0ABAB;*/
 }
 
 .medium-text {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #303030;
 }
 
 .mediumlarge-text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #303030;
 }
 
