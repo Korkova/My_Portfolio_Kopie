@@ -239,10 +239,14 @@ margin: 2% 20% 3% 20%;
    background-color: #303030;
 }
 
+#fullportfolio {
+padding-top: 10rem
+}
+
 /* FOOTER SECTION */
 
 #footer {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 
@@ -312,4 +316,5 @@ margin: 2% 20% 3% 20%;
     margin: 2.5% 47% 2.5% 47%;
     width: 7%;
   }
+
 }
