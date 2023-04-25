@@ -4,7 +4,7 @@ body {
 }
 
 footer {
-    background-color: #303030;
+  background-color: #303030;
 }
 
 h1 {
@@ -51,8 +51,6 @@ hr {
 }
 
 .carousel-caption {
-/*color: #EDE4E0;
-text-shadow: 1px 1px #B0ABAB;*/
   color: #FEFEFE;
   text-shadow: 1px 1px #EDE4E0;
 }
@@ -121,8 +119,8 @@ text-shadow: 1px 1px #B0ABAB;*/
 }
 
 #intro {
-text-align: left;
-padding: 10% 0% 5% 10%;
+  text-align: left;
+  padding: 10% 0% 5% 10%;
 }
 
 /* Carousel */
@@ -137,70 +135,13 @@ padding: 10% 0% 5% 10%;
 }
 
 .row {
---bs-gutter-x: 0rem;
+  --bs-gutter-x: 0rem;
 }
 
 /* Middle Section */
 
 .lorem {
-margin: 2% 20% 3% 20%;
-}
-
-.logo {
-  width: 160px;
-  height: 160px;
-  background-color: #1e212d;
-  opacity: 10%;
-  position: absolute;
-}
-
-#logo-python {
-    right: 2%;
-    top: 86%;
-    background-color: #a97944;
-    border-radius: 50%;
-}
-
-#logo-css {
-  width: 160px;
-  height: 160px;
-  right: 7%;
-  top: 110%;
-  transform: rotate(10deg);
-}
-
-#logo-js {
-  right: 5%;
-  top: 130%;
-  background-color: #FEFEFE;
-  transform: rotate(-25deg);
-}
-
-#logo-html {
-  right: 3%;
-  top: 160%;
-  border-radius: 50%;
-}
-
-#python-ikonka {
-  font-size: 5rem;
-  padding: 40px 30px;
-  transform: rotate(10deg);
-}
-
-#js-ikonka {
-  font-size: 10rem;
-  padding: 60px 60px;
-}
-
-#html-ikonka {
-  font-size: 5rem;
-  padding: 50px 40px;
-}
-
-#css-ikonka {
-  font-size: 4rem;
-  padding: 50px 40px;
+  margin: 2% 20% 3% 20%;
 }
 
 /* Project Cards - Features */
