@@ -72,6 +72,11 @@ text-shadow: 1px 1px #B0ABAB;*/
   color: #303030;
 }
 
+.mediumlarge-text {
+  font-size: 1.7rem;
+  color: #303030;
+}
+
 .small-text {
   font-size: 1rem;
   color: white;
