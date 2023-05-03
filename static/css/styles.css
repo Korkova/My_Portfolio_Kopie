@@ -903,6 +903,17 @@ hr {
   .contact-me-form {
     padding: 5%;
   }
+
+  .lorem {
+    margin: 0% 7% 0% 7%;
+  }
+
+  hr {
+    border-width: 3px;
+    width: 5%;
+    margin: 2.5% 49% 2.5% 49%;
+  }
+
 @media (max-width: 339px) {
 
   .container-navbar {
@@ -946,6 +957,16 @@ hr {
 
   .contact-me-form {
     padding: 5%;
+  }
+
+  .lorem {
+    margin: 0% 7% 0% 7%;
+  }
+
+  hr {
+    border-width: 3px;
+    width: 5%;
+    margin: 2.5% 49% 2.5% 49%;
   }
 
 }
