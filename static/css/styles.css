@@ -86,12 +86,8 @@ hr {
 }
 
 #signature {
-    /*font-family: 'Stalemate', cursive;*/
-    font-family: 'Mea Culpa', cursive;
-    font-size: 1.4rem;
     margin-top: 10px;
     padding: 0px 18px;
-    font-color: #303030;
 }
 
 .link-secondary {
